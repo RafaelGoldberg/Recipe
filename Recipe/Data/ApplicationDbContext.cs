@@ -15,6 +15,10 @@ namespace Recipe.Data
 
         }
         public DbSet<ApplicationUser> ApplicationUser { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<RecipeData> Recipes { get; set; }
+        public DbSet<RecipeCategory> RecipeCategories { get; set; }
+        public DbSet<Comment> Comments { get; set; }
   
  }
 }
